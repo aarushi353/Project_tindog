@@ -41,17 +41,24 @@ color: #ffffff;
 }
 /* title image */
 .title-image{
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
+    width: 50%;
+    transform: rotate(25deg);   
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
 }
 /* Features section */
 #features{
     margin: 7% 15%;
     background-color: #ffffff;
-    z-index: 1;
     position: relative;
-
+    z-index: 1;
 }
 .feature{
     text-align: center;
@@ -93,4 +100,19 @@ color: #ffffff;
     }
 .pricing-column{
     padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    height: 500px;
+    padding: 10% 15%;
+    text-align: center;
+}
+.cta-button{
+    margin-top: 50px;
+}
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 150px;
+    text-align: center;
 }
