@@ -81,5 +81,15 @@ color: #ffffff;
 }
 #press-logo{
     width: 15%;
-    margin: 15px 15px 20px;
-}
+    margin: 15px 15px 20px;}
+    /* Cards */
+    #pricing{
+        margin: 7% 12%;
+    }
+    .card-{
+        text-align: center;
+            
+    }
+    .top-pricing{
+
+    }
